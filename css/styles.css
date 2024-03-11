@@ -873,7 +873,6 @@ font-weight: 700;
          margin-bottom: 0;
         }
 }
-
 @media only screen and (min-width:1158px){
 .page-team-section{
     padding: 120px 0;
@@ -965,7 +964,6 @@ font-weight: 500;
     letter-spacing: 0.02em;
     text-align: center;
     color: #434455;
-    
 }
 .item-name ,
 .descr{
@@ -1090,7 +1088,6 @@ color: #FFFFFF;
 .social-container.icons-team{
     width:40px;
     height:40px;
-
 }
 .last-text{
     max-width: 264px;
@@ -1112,7 +1109,6 @@ color: #FFFFFF;
     .icons-team-list{
         margin-bottom: 72px;
     }
-    
 }
 /* Footer Form Container */
 .footer-form-text{
@@ -1236,4 +1232,4 @@ margin-bottom: 16px;
      /* /Footer form container */
 }
 
-/* ======= /Footer ======= */
+/* ======= /Footer page ======= */
