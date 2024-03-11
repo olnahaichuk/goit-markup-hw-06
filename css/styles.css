@@ -667,7 +667,7 @@ body{
     }
 }
     /*==== /Contacts form styles==== */
-@media only screen and (min-width:1440px){
+@media only screen and (min-width:1158px){
     .main-section{
         padding: 188px 0;
         max-width: 1440px;
@@ -688,7 +688,7 @@ body{
 .descr-section{
     padding: 96px 0;
     }
-@media only screen and (max-width:1440px){
+@media only screen and (max-width:1158px){
     .icons-list{
         display: none;
     }
@@ -734,7 +734,7 @@ margin-bottom: 0;
             }
         
     }
-    @media only screen and (min-width:1440px){
+    @media only screen and (min-width:1158px){
         .descr-section{
             padding: 120px 0;
             }
@@ -855,7 +855,7 @@ font-weight: 700;
     }
     
 }
-@media only screen and (min-width:768px) and (max-width:1439px){
+@media only screen and (min-width:768px) and (max-width:1157px){
 
     .team-list{
             display: flex;
@@ -874,7 +874,7 @@ font-weight: 700;
         }
 }
 
-@media only screen and (min-width:1440px){
+@media only screen and (min-width:1158px){
 .page-team-section{
     padding: 120px 0;
 }
@@ -993,12 +993,12 @@ font-weight: 500;
     .portf-background-color{
         width: calc((100% - 24px) / 2);
     }
-    @media only screen and (max-width:1439px){
+    @media only screen and (max-width:1157px){
         .portfolio-list:nth-child(2n){
             margin-right: 0;
         }
     }
-   @media only screen and (min-width:1440px){
+   @media only screen and (min-width:1158px){
     .portfolio-section{
         padding-top: 120px;
         padding-bottom: 120px;
@@ -1151,7 +1151,7 @@ margin-bottom: 16px;
     padding-left: 16px;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15); 
 }
-@media only screen and (max-width:1439px){
+@media only screen and (max-width:1157px){
     .footer-form-input-email{
         margin-bottom: 16px;
     }
@@ -1213,12 +1213,12 @@ margin-bottom: 16px;
     .footer-page-text{
     margin-right: 120px;
     }
-    @media only screen and (max-width:1439px){
+    @media only screen and (max-width:1157px){
       .footer-page{
         flex-wrap: wrap;
       }
     }
-    @media only screen and(min-width:1440px){
+    @media only screen and(min-width:1158px){
         .footer-page-cont{
           padding: 100px 0;
         }
