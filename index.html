@@ -37,6 +37,14 @@
             </li>
           </ul>
         </nav>
+        <button type="button" class="open-menu-btn">
+          <svg class="open-menu-btn-icon" 
+          width="24"
+          height="24"
+          aria-label="mobile menu open icon">
+            <use href="./images/icons.svg#icon-burger"></use>
+          </svg>
+        </button>
         <address class="info-page">
           <ul class="links-contacts">
             <li class="links-contacts-item">
@@ -56,12 +64,12 @@
     <main>
       <!--/ Page Header -->
       <!-- First Section -->
-      <section class="main-section">
+       <section class="main-section">
         <div class="main-page container">
           <h1 class="page">Effective Solutions for Your Business</h1>
           <button class="button" type="button">Order Service</button>
         </div>
-      </section>
+      </section> 
       <!-- /First Section -->
       <!-- Second Section -->
       <section class="descr-section">
@@ -111,7 +119,7 @@
                 </svg>
               </div>
               <h3 class="main-word">Technologies</h3>
-              <p class="main-text">
+              <p class="main-text last-chld">
                 Design practice focused on digital experiences. We bring forth a
                 deep passion for problem-solving.
               </p>
@@ -127,7 +135,8 @@
           <ul class="team-list">
             <li class="background-color">
               <img
-                src="./images/img(3).jpg"
+              srcset="./images/mobile/img.jpg , ./images/mobile/img@2x.jpg"
+                src="./images/mobile/img.jpg"
                 alt="Smiling guy"
                 width="264"
                 height="260"
@@ -170,7 +179,8 @@
             </li>
             <li class="background-color">
               <img
-                src="./images/img(2).jpg"
+              srcset="./images/mobile/img-1.jpg , ./images/mobile/img@2x-1.jpg"
+                src="./images/mobile/img-1.jpg"
                 alt="Girl with long hair"
                 width="264"
                 height="260"
@@ -212,7 +222,8 @@
             </li>
             <li class="background-color">
               <img
-                src="./images/img(1).jpg"
+              srcset="./images/mobile/img-2.jpg , ./images/mobile/img@2x-2.jpg"
+                src="./images/mobile/img-2.jpg"
                 alt="Man"
                 width="264"
                 height="260"
@@ -255,7 +266,8 @@
             </li>
             <li class="background-color">
               <img
-                src="./images/img.jpg"
+              srcset="./images/mobile/img-3.jpg , ./images/mobile/img@2x-3.jpg"
+                src="./images/mobile/img-3.jpg"
                 alt="Man with beard"
                 width="264"
                 height="260"
@@ -489,7 +501,7 @@
       </div>
     </footer>
     <!-- /Footer  -->
-    <div class="backdrop is-open ">
+    <div class="backdrop ">
       <div class="modal">
         <button class="modal-close-btn" type="button">
           <svg class="modal-close-btn-icon" width="8"
@@ -571,6 +583,74 @@
         </div>
         <button class="contacts-form-submit-button" type="submit">Send</button>
         </form>
+      </div>
+    </div>
+    <div class="mobile-menu ">
+      <div class="container mobile-menu-container">
+        <button class="mobile-menu-close-btn">
+          <svg class="mobile-menu-close-btn-icon"
+          width="8"
+          height="8"
+          aria-label="mobile menu close icon">
+            <use href="./images/icons.svg#icon-close"></use>
+          </svg>
+        </button>
+        <ul class="mobile-nav-menu">
+          <li class="mobile-nav-item">
+            <a class="link active" href="./index.html">Studio</a>
+          </li>
+          <li class="mobile-nav-item">
+            <a class="link" href="">Portfolio</a>
+          </li>
+          <li class="mobile-nav-item">
+            <a class="link" href="">Contacts</a>
+          </li>
+        </ul>
+        <address class="info-page-mobile-menu">
+          <ul class="mobile-menu-links-contacts">
+            <li class="mobile-links-contacts-item">
+              <a class="mobile-contacts-link" href="mailto:info@devstudio.com"
+                >info@devstudio.com</a
+              >
+            </li>
+            <li class="mobile-links-contacts-item">
+              <a class="mobile-contacts-link" href="tel:+110001111111"
+                >+11 (000) 111-11-11</a
+              >
+            </li>
+          </ul>
+        </address>
+        <ul class="icons-team-list">
+          <li class="icons-team-img">
+            <a href="" target="_blank" class="icons-team">
+              <svg class="icon" width="24" height="24">
+                <use href="./images/icons.svg#icon-instagram"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="icons-team-img">
+            <a href="" target="_blank" class="icons-team">
+              <svg class="icon" width="24" height="24">
+                <use href="./images/icons.svg#icon-twitter"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="icons-team-img">
+            <a href="" target="_blank" class="icons-team">
+              <svg class="icon" width="24" height="24">
+                <use href="./images/icons.svg#icon-facebook"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="icons-team-img">
+            <a href="" target="_blank" class="icons-team">
+              <svg class="icon"
+              width="24" height="24">
+                <use href="./images/icons.svg#icon-linkedin"></use>
+              </svg>
+            </a>
+          </li>
+        </ul>
       </div>
     </div>
   </body>
