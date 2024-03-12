@@ -210,7 +210,13 @@ body{
     color:#4D5AE5;
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+.icons-team-list-menu{
+    display: flex;
+    gap: 40px;
+    align-self: flex-end;
+    justify-content:center;
 
+}
 
 .icons-team-img{
     width: 40px;
@@ -235,17 +241,6 @@ body{
 .icons-team-list .icons-team:focus{
    background-color:#404BBF;
 }
-}
-@media only screen and
-(max-width:767px) {
-    .icons-team-list{
-        display: flex;
-        flex-shrink: 0;
-        gap: 40px;
-        align-self: flex-end;
-        justify-content:center;
-    
-    }
 }
 /* ======/Mobile Header Styles===== */
 /* ======Tablet Header Styles===== */
@@ -804,13 +799,11 @@ font-weight: 700;
     margin-bottom: 72px;   
     text-align: center;
 }
-@media only screen and (min-width:768px) {
-    .icons-team-list{
-        display: flex;
-        gap: 24px;  
-        justify-content:center;
-    
-    }
+.icons-team-list{
+    display: flex;
+    gap: 24px;  
+    justify-content:center;
+
 }
 .icons-team-img{
    width: 40px;
@@ -1242,7 +1235,7 @@ color: #ffffff;
     
     }
     .footer-page-text{
-    margin-right: 120px;
+    margin-right: 24px;
     }
     @media only screen and (max-width:1157px){
       .footer-page{
