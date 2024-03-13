@@ -1229,12 +1229,16 @@ color: #ffffff;
         align-items: baseline;
         
     }
-    
-    .footer-page .container{
-        display: flex;
-        align-items: baseline;
-    
+    @media only screen and (min-width:768px) and (max-width:1157px){
+        .footer-page.container{
+            max-width: 584px;
+            display: flex;
+            align-items: baseline;
+        
+        }
     }
+    
+
     @media only screen and (min-width:768px) and (max-width:1157px) {
         .footer-page-text{
             margin-right: 24px;
@@ -1255,6 +1259,7 @@ color: #ffffff;
         .footer-page-cont{
           padding: 100px 0;
         }
+       
  
     }
     
